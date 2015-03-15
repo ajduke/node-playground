@@ -1,0 +1,5 @@
+/logs
+/dist
+*.logs
+*.log
+node_modules/
