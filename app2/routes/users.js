@@ -12,7 +12,7 @@ router.get('/', function(req, res, next){
 });
 
 router.get('/user', function(req, res, next) {
-  db.users.find({},{user_id: 1}, function(err, doc){
+  db.users.find({},{}, function(err, doc){
     res.status(200).send({
       status: 200,
       data: {
